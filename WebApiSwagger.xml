@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApiSwagger</name>
+    </assembly>
+    <members>
+        <member name="M:WebApiSwagger.Controllers.EmployeeController.GetAllEmployee">
+            <summary>
+            获取所有Employee
+            </summary>
+            <returns>IEnumerable</returns>
+        </member>
+        <member name="M:WebApiSwagger.Controllers.EmployeeController.GetAllEmployeeV2">
+            <summary>
+            获取所有Employee
+            </summary>
+            <returns>IEnumerable</returns>
+        </member>
+        <member name="M:WebApiSwagger.Controllers.EmployeeController.GetEmployeeById(System.Int32)">
+            <summary>
+            根据id获取Employee
+            </summary>
+        </member>
+        <member name="M:WebApiSwagger.Controllers.EmployeeController.AddEmployee(WebApiSwagger.Controllers.Employee)">
+            <summary>
+            添加Employee
+            </summary>
+            <param name="employee">Employee 对象</param>
+            <returns>Employee</returns>
+        </member>
+    </members>
+</doc>
